@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "mulish";
+    src: url(../fonts/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "mulish-italic";
+    src: url(../fonts/Mulish-Italic-VariableFont_wght.ttf);
+}
+
+header {
+    font-family: "mulish";
+    padding: 5px;
+    display: flex;
+    justify-content: space-between
+}
+
+header h1 {
+    padding: 10px;
+    font-size: 16px;
+    color: green;
+}
+
+header nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+
+header nav a:nth-of-type(5) {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+
+}
+
+header nav a:nth-of-type(5):hover {
+    background-color: white;
+    color: green;
+}
+
+/* ENDE vom Header */
+
+/* Downlod button */
+
+main {
+    padding: 20px;
+}
+
+/* downloadbutton anfang */
+main div a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px 10px;
+    /* WARUM nimmt er keinen top/bottom-margin für den Button!?!?!?*/
+    width: 100px;
+}
+
+main div a:hover {
+    background-color: white;
+    color: green;
+}
+
+/* downloadbutton ende */
+h2 {
+    font-family: "mulish";
+    padding: 10px;
+}
+
+h3 {
+    font-family: "mulish";
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div {
+    border: 1px solid black;
+}
+
+/* ab hier STyling für den 2. Block */
+section div {
+    border: 1px solid blue;
+}
+
+section div a {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px 10px;
+    /* WARUM nimmt er keinen top/bottom-margin für den Button!?!?!?*/
+    width: 100px;
+}
+
+section div a:hover {
+    background-color: white;
+    color: green;
+}
+
+/* downloadbutton ende */
+section h2 {
+    font-family: "mulish";
+    padding: 10px;
+}
+
+section h3 {
+    font-family: "mulish";
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Kind11 {
+    width: 50%;
+    text-align: center;
+}
+
+.Kind21 {
+    display: flex;
+    /* Display flex macht es zum Elternelement und das Bild zum Flex-item. */
+    justify-content: center;
+}
+
+.Kind31 {
+    width: 30%
+}
+
+.Kind41 {
+    width: 70%;
+}
